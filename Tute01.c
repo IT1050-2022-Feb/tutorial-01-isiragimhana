@@ -5,6 +5,16 @@
 #include <stdio.h>
 
 int main() {
+   int num1,num2;
+   float sum , avg;
+   printf("enter the mark 1 st subject :");
+   scanf("%d" ,&num1);
+   printf("entre the mark 2 nd subject :");
+   scanf("%d" ,&num2);
+   sum=num1+num2;
+   avg=sum/2;
+   printf("average of two subjects = %.1f\n , avg);
+          
   
   return 0;
 }
